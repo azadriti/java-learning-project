@@ -1,6 +1,6 @@
 package classes;
 
-public class Libary {
+public class Library {
     Student[] students = new Student[10];
     Book[] books = new Book[10];
     int bookIndex = -1;

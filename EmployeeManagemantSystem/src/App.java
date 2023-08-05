@@ -1,5 +1,5 @@
 import classes.Book;
-import classes.Libary;
+import classes.Library;
 import classes.Student;
 
 public class App {
@@ -14,17 +14,17 @@ public class App {
 
         // Creating the libary
 
-        var gmitLibary = new Libary();
+        var gmitLibrary = new Library();
         
-        gmitLibary.addBook(dsa);
-        gmitLibary.addBook(history);
+        gmitLibrary.addBook(dsa);
+        gmitLibrary.addBook(history);
         
 
-        gmitLibary.addStudent(riti);
-        gmitLibary.addStudent(raina);
+        gmitLibrary.addStudent(riti);
+        gmitLibrary.addStudent(raina);
 
-        gmitLibary.issueBook(dsa.book, riti.name);
-        gmitLibary.issueBook(history.book,raina.name);
+        gmitLibrary.issueBook(dsa.book, riti.name);
+        gmitLibrary.issueBook(history.book,raina.name);
 
     }
 }
